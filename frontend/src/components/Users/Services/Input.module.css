@@ -1,0 +1,80 @@
+.inputRegister {
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 3px 3px 8px rgba(78, 27, 222, 0.3);
+    -moz-box-shadow:3px 3px 8px rgba(78, 27, 222, 0.3);
+    -webkit-box-shadow:3px 3px 8px rgba(78, 27, 222, 0.3);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    border:none;
+    height: 35px;
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    color: white;
+    font-weight: 300;
+    
+
+
+}
+
+.inputRegister:focus, .inputRegister:hover{
+    outline: none;
+    border:2px solid #340955;
+    box-shadow: 0px 1px 5px #5E2AF0, inset 0px 1px 5px #5E2AF0;
+    -webkit-box-shadow: 0px 1px 5px #5E2AF0, inset 0px 1px 5px #5E2AF0;
+    -moz-box-shadow: 0px 1px 5px #5E2AF0, inset 0px 1px 5px #5E2AF0;
+    cursor: pointer;
+    
+}
+
+.inputRegister::placeholder {
+    color: rgba(253, 253, 253, 0.507);
+    
+}
+
+.label {
+    color: white;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+
+.inputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10px;
+    position: relative;
+}
+
+.errorStyle {
+    position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    color: #ffa938;
+}
+
+.errorBorder {
+    border:1px solid #ffa938;
+}
+
+
+
+@media (max-width:950px) {
+    .inputDiv {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .label {
+        margin: 10px 0 5px 0;
+    }
+  
+  }

@@ -1,0 +1,39 @@
+.pagination {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    margin-bottom: 3px;
+    font-size: 14px;
+    align-items: center;
+    
+    
+}
+
+
+
+.pagination button {
+    cursor: pointer;
+    border:none;
+    padding: 2px 5px;
+    font-weight: 300;
+}
+
+
+
+
+.buttonNextPrevius {
+    background-color: #4E1BDE;
+    color: #fff;
+}
+
+.pages {
+    color: #fff;
+    display: flex;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.pages p:first-child {
+    margin-right: 5px;
+    font-weight: 300;
+}

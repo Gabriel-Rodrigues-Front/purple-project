@@ -1,0 +1,80 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    background-color:#340955;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    padding: 10px;
+}
+
+.mensagem {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    color: #9f21ff;
+    border: 1px solid #9f21ff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.caixaFlutuante {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 50vw;
+    position: fixed;
+    bottom: 40vh;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.modalButton {
+    background-color:#2738d4;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    align-self: flex-end;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.modalButton:hover {
+    background-color: #172497;
+}
+
+
+
+/* AJUSTES RESPONSIVOS */ 
+
+
+@media (max-width:950px) {
+    .caixaFlutuante {
+       
+        width: 80vw;
+        height: auto;
+        
+       
+       
+    }
+    
+  
+  }

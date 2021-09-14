@@ -1,0 +1,137 @@
+.titulo {
+    margin-top: 3.5vh;
+    background-color: #F88600;
+    line-height: 56px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 3em;
+    width: 95%;
+    text-align: center;
+    padding: 8px 0;
+    
+}
+
+.form {
+    margin-top: 3vh;
+    width: 95%;
+    margin-bottom: 3.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.buttonCancel {
+    background: #0061cf;
+    border: none;
+    font-size: 2em;
+    margin-top: 3.0vh;
+    padding: 0 40px;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    height: 50px;
+    width: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.buttonCancel:hover {
+    background-color: #003f88;
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inputGroup:nth-child(2), .inputGroup:nth-child(3), .inputGroup:nth-child(4){
+    margin-top: 3.5vh;
+}
+
+.divButtons {
+    display: flex;
+}
+
+.formButton {
+    background: #F88600;
+    border: none;
+    font-size: 2em;
+    margin-top: 3.0vh;
+    padding: 0 40px;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    height: 50px;
+    width: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formButton:disabled {
+    background: #F88600;
+
+}
+
+.formButton:hover {
+    background: #a75900;
+
+}
+
+.loading {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 4px solid #ccc;
+    border-right-color: transparent;
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* AJUSTES RESPONSIVOS */
+
+@media (max-width:950px) {
+    .inputGroup {
+      flex-direction: column;
+    }
+
+    .inputGroup:nth-child(2), .inputGroup:nth-child(3), .inputGroup:nth-child(4){
+        margin-top: 25px;
+    }
+
+    .form {
+        justify-content: center;
+    }
+
+    .divButtons {
+        flex-direction: column;
+    }
+
+    .formButton {
+        margin-top: 40px;
+    }
+
+    .buttonCancel {
+        margin-right: 0;
+    }
+  }
+

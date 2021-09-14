@@ -1,0 +1,32 @@
+.navButton {
+    color: #fff;
+    font-size: 25px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    width:100%;
+    padding: 5px;
+    border:3px solid #5E2AF0;
+    height: 50px;
+    justify-content: center;
+}
+
+.navButton:hover {
+    background-color: #5E2AF0;
+}
+
+
+
+/* Ajustes Responsivos */
+
+@media (max-width:355px) {
+    .navButton {
+       font-size: 20px;
+    }
+}
+
+
+
