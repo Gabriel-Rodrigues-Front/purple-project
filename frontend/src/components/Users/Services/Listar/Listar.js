@@ -115,7 +115,11 @@ const Listar = () => {
           
           
           {/* FIM DA LISTAGEM MOBILE */}
-              
+               {users === null ? 
+              <h1 style={{color:'#fff', fontWeight:"200", marginTop:"20px"}}>
+                Nenhum dado retornado, cadastre uma pessoa ou verifique se iniciou o backend.
+              </h1> 
+              : null}
               {search !== '' ? null : <Pagination limit={size} total={totalUsers} offset={offset} setOffset={setOffset} /> }
         </div>
           {showModalConsulta === true ? <ModalConsulta setShowModalConsulta={setShowModalConsulta}/> : null}
