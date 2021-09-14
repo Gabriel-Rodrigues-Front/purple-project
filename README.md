@@ -1,5 +1,7 @@
 # purple-project
 
+Após dar clone no repositório, executar o comando npm install nas pastas raizes frontend e backend, onde há os arquivos package.json, após isso, dar o comando npm start ou yarn start na pasta front end para iniciar o front, e para iniciar o backend, dar o comando node index.js na pasta src.
+
 SPA em React - Crud de Pessoas
 Tecnologias utilizadas: React, HTML5, CSS3, NodeJS com Express e MongoDB.
 Layout feito no Figma.
