@@ -19,5 +19,23 @@ Auto complete no endereço após digitar o cep, consumindo webservice da ViaCEP.
 Responsivo. 
 
 ![home-desktop](https://i.postimg.cc/GpH5KB8T/home-desktop.png)
-
 <hr>
+
+![cadastrar-desktop](https://i.postimg.cc/jSq9W3RX/cadastrar-desktop.png)
+<hr>
+
+![modal-sucesso](https://i.postimg.cc/FzjqS2fP/modalsucesso-desktop.png)
+<hr>
+
+![listagem-desktop](https://i.postimg.cc/9FYKQHH0/listagem-desktop.png)
+<hr>
+
+![modal-consulta-desktop](https://i.postimg.cc/htMkpW26/modalconsulta-desktop.png)
+<hr>
+
+![modal-delete-desktop](https://i.postimg.cc/s2NtCPdJ/modaldelete-desktop.png)
+<hr>
+
+
+
+
