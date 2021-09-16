@@ -18,6 +18,6 @@ Barra de busca por CPF utilizando query params.
 Auto complete no endereço após digitar o cep, consumindo webservice da ViaCEP.
 Responsivo. 
 
-![ScreenShot](https://i.postimg.cc/GpH5KB8T/home-desktop.png)
+![home-desktop](https://i.postimg.cc/GpH5KB8T/home-desktop.png)
 
 <hr>
