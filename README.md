@@ -8,15 +8,15 @@
 
 ### Features - 
 
-#### Validação e controle de formulário com Formik e Yup.
-#### API Rest.
-##### Paginação no Back-End, consumida no Front-End.
-##### Modais para auxiliar na UX.
-##### O Sistema não permite cadastro utilizando o mesmo CPF mais de uma vez.
-##### Só é possível cadastrar com CPFs válidos.
-##### Barra de busca por CPF utilizando query params.
-##### Auto complete no endereço após digitar o cep, consumindo webservice da ViaCEP.
-##### Responsivo. 
+##### - Validação e controle de formulário com Formik e Yup.
+##### - API Rest.
+##### - Paginação no Back-End, consumida no Front-End.
+##### - Modais para auxiliar na UX.
+##### - O Sistema não permite cadastro utilizando o mesmo CPF mais de uma vez.
+##### - Só é possível cadastrar com CPFs válidos.
+##### - Barra de busca por CPF utilizando query params.
+##### - Auto complete no endereço após digitar o cep, consumindo webservice da ViaCEP.
+##### - Responsivo. 
 
 ###### Home Desktop
 
@@ -53,7 +53,7 @@
 <hr>
 
 ###### Listagem Mobile
-![listagem-mobile] (https://i.postimg.cc/MG38K2RV/listagem-mobile.png)
+![listagem-mobile](https://i.postimg.cc/MG38K2RV/listagem-mobile.png)
 
 
 
